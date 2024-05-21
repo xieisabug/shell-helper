@@ -12,7 +12,7 @@ with open(API_KEYFILE, 'r') as file:
 
 def get_chatgpt_response(prompt):
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o"
         messages=[
             {"role": "system", "content": "You write modern, excellent concise bash oneliners. All codeblocks must start with the appropriate language identifiers."},
             {"role": "user", "content": prompt}
