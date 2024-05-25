@@ -1,3 +1,4 @@
+[中文](README-zh.md)
 #  Shell Helper
 
 Don't remember obscure shell commands?
